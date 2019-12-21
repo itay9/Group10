@@ -4,14 +4,14 @@
 using namespace std;
 
 class Person
-{
+{// Class Person
 protected:
 	string name;
 	long int id;
 	int age;
 public:
-	Person();
-	Person(string _name, long int _id, int _age);
-	~Person();
-	void printPerson();
+	Person();//Def.Constructor
+	Person(string _name, long int _id, int _age);//Constructor
+	~Person();//DTOR
+	void printPerson();//Print Func
 };
