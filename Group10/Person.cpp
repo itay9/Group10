@@ -25,8 +25,8 @@ Person::~Person()
 
 void Person::printPerson()
 {
-	cout << "name: " << this->name << "\n";
-	cout << "id: " << this->id << "\n";
-	cout << "age: " << this->age << "\n";
+	cout << "name: " << this->name << endl;
+	cout << "id: " << this->id << endl;
+	cout << "age: " << this->age << endl;
 
 }
