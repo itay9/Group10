@@ -14,6 +14,6 @@ void Student::printStudent()
 {
 	this->printPerson();
 	cout << "average: " << this->average << endl;
-	cout << "institute: " << this->institute < endl;
+	cout << "institute: " << this->institute << endl;
 }
 
