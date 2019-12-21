@@ -17,3 +17,16 @@ Person::Person(string _name, long int _id, int _age)
 	this->id = _id;
 	this->age = _age;
 }
+
+Person::~Person()
+{
+
+}
+
+void Person::printPerson()
+{
+	cout << "name: " << this->name << "\n";
+	cout << "id: " << this->id << "\n";
+	cout << "age: " << this->age << "\n";
+
+}
