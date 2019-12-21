@@ -7,6 +7,12 @@ class Student : public Person {
 protected:
 	int average;
 	string institute;
-
-  public:
+	
+public:
+	Student();
+	Student(string _name, long int _id, int _age, int avg, string inst);
+	~Student();
+	void printStudent();
+}; //student
+	
   
